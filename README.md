@@ -14,20 +14,22 @@ This is the most important part of Home Assistant!  Remote control and voice com
 
 I run my home assistant instance on a Zotac mini PC.  The previous life of this device was as a Datto Alto2 backup solution.  It has a AMD GX-415GA quad core processor, 8GB of RAM, 64GB SSD and sips on power.  The base operating system is [Ubuntu Server 18.04.3 LTS](https://ubuntu.com/download/server) and it runs [Hass.io via docker](https://www.home-assistant.io/hassio/installation/#alternative-install-on-a-generic-linux-host). It also runs the following add-ons. 
 
+* [Adguard Home](https://github.com/hassio-addons/addon-adguard-home)
 * [Backup to Google Drive](https://github.com/sabeechen/hassio-google-drive-backup)
 * [Mosquitto MQTT broker](https://www.home-assistant.io/addons/mosquitto/)
 * [Network UPS Tools](https://github.com/SilvrrGIT/hassio-addons)
-* [PiHole](https://github.com/hassio-addons/addon-pi-hole)
 * [RPC Shutdown](https://www.home-assistant.io/addons/rpc_shutdown/)
 * [SSH](https://www.home-assistant.io/addons/ssh/)
 * [Samba](https://www.home-assistant.io/addons/samba/)
 * [Unifi Controller](https://github.com/hassio-addons/addon-unifi)
 * [VScode](https://github.com/hassio-addons/addon-vscode)
 
-I'm currently running [Home Assistant](https://home-assistant.io) version __0.102.2__ on this instance.
+I'm currently running [Home Assistant](https://home-assistant.io) version __0.104.2__ on this instance.
 
 # UI Based Integrations:
-The following integrations are setup in the User Interface (UI) and may be a missing peice as to the full configuration of my HA setup.  
+The following integrations are setup in the User Interface (UI) and may be a missing peice as to the full configuration of my HA setup. 
+
+* [Adguard Home](https://www.home-assistant.io/integrations/adguard/)
 * [IKEA Trådfri (Tradfri)](https://www.home-assistant.io/integrations/tradfri/)
 * [MQTT](https://www.home-assistant.io/integrations/mqtt/)
 * [Unifi Controller](https://www.home-assistant.io/integrations/unifi/)
@@ -39,7 +41,7 @@ The following integrations are setup in the User Interface (UI) and may be a mis
 # A Few Stats On my Setup:
 | Tracked Devices | Lights | Binary Sensors | Switches | Automations | Scripts | Sensors | Zwave Devices |
 |:---------------:|:------:|:--------------:|:--------:|:-----------:|:-------:|:-------:|:-------------:|
-|41               |13      |7               |33        |79           |6        |152      |10             | 
+|45               |14      |6               |40        |81           |6        |156      |10             | 
 
 # Connected Devices:
 
@@ -105,6 +107,10 @@ The following integrations are setup in the User Interface (UI) and may be a mis
   <img src="https://raw.githubusercontent.com/SilvrrGIT/HomeAssistant/master/www/automations.png">
 </p>
 
+## Data
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SilvrrGIT/HomeAssistant/master/www/data.png">
+</p>
 
 # Questions?
 

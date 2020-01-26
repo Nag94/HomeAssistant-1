@@ -5,6 +5,7 @@
 
 ### Bedroom Fan.yaml Automations:
 __[File Link](https://github.com/SilvrrGIT/HomeAssistant/blob/master/automation/bedroom_fan.yaml)__
+
 Automations to turn on/off the ceiling fan in our bedroom.  Its a vaulted ceiling and in the summer a lot of hot air gets trapped up there and in the winter the same thing happens to a less notable extent.
 * When the HVAC turns on, turn on the fan to circulate the air
 * When the HVAC turns off, turn off the fan
@@ -88,6 +89,8 @@ Some automations for Home Assistant related items.
 * Notify me if a battery power sensor battery is getting low
 * Notify me and restart the nut addon if it stops reporting values
 * A dailty reset and loggin of the total kWh reading from my home energy monitor
+* Notify me if the host (Ubuntu Server) has a system update available
+* Notify me if the host (Ubuntu Server) has a security update available
 
 ### hvac.yaml Automations:
 __[File Link](https://github.com/SilvrrGIT/HomeAssistant/blob/master/automation/thermostat.yaml)__
@@ -143,6 +146,11 @@ A series of automations that trigger monthly or weekly to help me remember to pe
 * Water Softener Reminder
 * Remind me to service our whole home humidifier before winter
 * Remind me to service our water filter
+
+### Media Center.yaml Automations:
+__[File Link](https://github.com/SilvrrGIT/HomeAssistant/blob/master/automation/mediacenter.yaml)__
+
+* When the TV turns on power draw will go above 50 watts, change the amplifier to the TV input. (This also would turn it on if it hasn't been turned on)
 
 ### Morning Briefing.yaml Automation:
 __[File Link](https://github.com/SilvrrGIT/HomeAssistant/blob/master/automation/morning_briefing.yaml)__
